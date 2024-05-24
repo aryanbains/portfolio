@@ -1,10 +1,10 @@
 {
   "name": "portfolio",
   "version": "1.0.0",
-  "homepage": "https://aryanbains.xyz.com",
+  "homepage": "https://www.aryanbains.xyz",
   "description": "Portfolio site for Aryan Bains",
-  "repository": "https://github.com/Tresillo2017/portfolio-1",
-  "author": "Aryan Bains<aryanbains6@gmail.com",
+  "repository": "https://github.com/aryanbains/portfolio",
+  "author": "Aryan Bains<aryanbains6@gmail.com>",
   "devDependencies": {
     "@mapbox/rehype-prism": "^0.8.0",
     "@storybook/addon-a11y": "^6.5.10",

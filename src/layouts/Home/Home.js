@@ -72,7 +72,7 @@ export const Home = () => {
   return (
     <div className={styles.home}>
       <Helmet>
-      <script defer data-domain="aryanbains.xyz" src="https://aryanbains.xyz"></script>
+      <script defer data-domain="www.aryanbains.xyz" src="https://www.aryanbains.xyz"></script>
     </Helmet>
       <Meta
         title="MERN Developer and Data Structures Enthusiast"
