@@ -70,14 +70,14 @@ import styles from './SmartSparrow.module.css';
 const Earth = dynamic(() => import('./Earth').then(mod => mod.Earth));
 const EarthSection = dynamic(() => import('./Earth').then(mod => mod.EarthSection));
 
-const title = 'Tesla Dashboard for Beamng Drive';
+const title = 'AarambhKar - Task Hunt';
 const description =
-  'Wanted to have a tesla screen on beamng drive, now you can with simhub.';
+  'Unleashing Talent, Elevating Projects: Where Creativity Meets Opportunity';
 const roles = [
-  'RPM',
-  'FuelLight',
-  'Blinkers',
-  'Over speed warning',
+  'Skill development pathways',
+  'Profile enhancement',
+  'Financial planning resource',
+  'Merit-based Selection:',
 ];
 
 export const SmartSparrow = () => {
@@ -104,7 +104,7 @@ export const SmartSparrow = () => {
         <ProjectHeader
           title={title}
           description={description}
-          url="https://tesladashboard.Aryan Bainsps.com"
+          url="taskhunt-frontend.vercel.app"
           roles={roles}
         />
         <ProjectSection padding="top">

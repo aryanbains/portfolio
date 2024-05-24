@@ -89,8 +89,8 @@ export const Home = () => {
         sectionRef={projectOne}
         visible={visibleSections.includes(projectOne.current)}
         index={1}
-        title="Tesla-Dashboard"
-        description="Tesla dashboard for beamng drive"
+        title="AarambhKar- Task Hunt"
+        description="Freelancing Platform based on Bounty System"
         buttonText="View more"
         buttonLink="/projects/tesla-dashboard"
         model={{
