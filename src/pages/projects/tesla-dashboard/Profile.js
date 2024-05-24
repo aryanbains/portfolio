@@ -21,7 +21,7 @@ const ProfileText = ({ visible, titleId }) => (
       <DecoderText text="Hi there" start={visible} delay={500} />
     </Heading>
     <Text className={styles.description} data-visible={visible} size="l" as="p">
-      I’m Tomas, currently I live in Spain currently working in{' '}
+      I’m Aryan Bains, currently I live in Spain currently working in{' '}
       <Link href="https://spainrp.me">SpainRP</Link>. My projects include UX design, UI
       animations, and icon illustration. Being comfortable with code allows me to rapidly
       prototype and validate experiences. If you’re interested in the tools and software I
@@ -29,7 +29,7 @@ const ProfileText = ({ visible, titleId }) => (
     </Text>
     <Text className={styles.description} data-visible={visible} size="l" as="p">
       In my spare time I like to take photos to things I see and like{' '}
-      <Link href="https://photography.tomasps.com">Website</Link>.
+      <Link href="https://photography.Aryan Bainsps.com">Website</Link>.
     </Text>
   </Fragment>
 );
