@@ -28,12 +28,12 @@ export const navLinks = [
 export const socialLinks = [
   {
     label: 'Twitter',
-    url: 'https://twitter.com/toomas_ps',
+    url: 'https://twitter.com/aryanbains2',
     icon: 'twitter',
   },
   {
     label: 'Github',
-    url: 'https://github.com/Tresillo2017',
+    url: 'https://github.com/aryanbains',
     icon: 'github',
   },
 ];
