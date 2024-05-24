@@ -104,7 +104,7 @@ export const SmartSparrow = () => {
         <ProjectHeader
           title={title}
           description={description}
-          url="taskhunt-frontend.vercel.app"
+          url="https://taskhunt-frontend.vercel.app"
           roles={roles}
         />
         <ProjectSection padding="top">

@@ -21,8 +21,8 @@ const ProfileText = ({ visible, titleId }) => (
       <DecoderText text="Hi there" start={visible} delay={500} />
     </Heading>
     <Text className={styles.description} data-visible={visible} size="l" as="p">
-      I’m Aryan Bains, currently I live in New Delhi, India currently working in{' '}
-      <Link href="https://spainrp.me">SpainRP</Link>. My projects include UX design, UI
+      I’m Aryan Bains, currently I live in New Delhi, India currently a college student.
+      My projects include UX design, UI
       animations, and icon illustration. Being comfortable with code allows me to rapidly
       prototype and validate experiences. If you’re interested in the tools and software I
       use check out my <Link href="/uses">uses page</Link>.

@@ -92,7 +92,7 @@ export const Home = () => {
         title="AarambhKar- Task Hunt"
         description="Freelancing Platform based on Bounty System"
         buttonText="View more"
-        buttonLink="/projects/tesla-dashboard"
+        buttonLink="/projects/taskhunt"
         model={{
           type: 'laptop',
           alt: 'Screenshot of the current UI',
