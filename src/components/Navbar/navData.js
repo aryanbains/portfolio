@@ -16,12 +16,8 @@ export const navLinks = [
   //   pathname: '/contact',
   // },
   {
-    label: 'Photography',
+    label: 'Achievements',
     pathname: 'https://photography.Aryan Bainsps.com',
-  },
-  {
-    label: 'Drive',
-    pathname: 'https://drive.Aryan Bainsps.com',
   },
 ];
 
