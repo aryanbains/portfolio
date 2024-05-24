@@ -63,6 +63,18 @@ export const Profile = ({ id, visible, sectionRef }) => {
               >
                 Send me a message
               </Button>
+              <br></br>
+              <br></br>
+              <Button
+                secondary
+                className={styles.button}
+                data-visible={visible}
+                href="https://drive.google.com/file/d/1Yab37UqZLDznu6_eHY9xy4oAaMP4900d/view?usp=sharing"
+                icon="download"
+              >
+                Download CV / Resume
+              </Button>
+              
             </div>
             <div className={styles.column}>
               <div className={styles.tag} aria-hidden>
