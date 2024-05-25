@@ -110,10 +110,10 @@ export const Home = () => {
         sectionRef={projectTwo}
         visible={visibleSections.includes(projectTwo.current)}
         index={2}
-        title="SpainRP"
-        description="SpainRP Minecraft Server"
+        title="Dr. Hapyer"
+        description="An ecosystem for Health Records"
         buttonText="View website"
-        buttonLink="https://spainrp.me"
+        buttonLink="https://github.com/aryanbains/IC-HACK-SUPERNOVA-PHASE--2"
         model={{
           type: 'phone',
           alt: 'App login screen',
