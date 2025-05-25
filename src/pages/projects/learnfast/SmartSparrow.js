@@ -128,7 +128,7 @@ export const SmartSparrow = () => {
             <ProjectTextRow>
               <ProjectSectionHeading>Overview:</ProjectSectionHeading>
               <ProjectSectionText>
-                LearnFast is an AI-driven learning platform designed to make self-education structured, efficient, and personalized. Whether you're a student, professional, or lifelong learner, LearnFast helps you build custom learning schedules based on your goals, availability, and preferred learning style.
+                LearnFast is an AI-driven learning platform designed to make self-education structured, efficient, and personalized. Whether you\u2019re a student, professional, or lifelong learner, LearnFast helps you build custom learning schedules based on your goals, availability, and preferred learning style.
               </ProjectSectionText>
             </ProjectTextRow>
             <ProjectTextRow>
