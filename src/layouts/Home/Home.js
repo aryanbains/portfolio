@@ -31,8 +31,8 @@ export const Home = () => {
   const projectTwo = useRef();
   const projectThree = useRef();
   const details = useRef();
-  
-  
+
+
   useEffect(() => {
     const sections = [intro, projectOne, projectTwo, projectThree, details];
 
@@ -72,8 +72,8 @@ export const Home = () => {
   return (
     <div className={styles.home}>
       <Helmet>
-      <script defer data-domain="www.aryanbains.xyz" src="https://www.aryanbains.xyz"></script>
-    </Helmet>
+        <script defer data-domain="www.aryanbains.xyz" src="https://www.aryanbains.xyz"></script>
+      </Helmet>
       <Meta
         title="MERN Developer and Data Structures Enthusiast"
         description="Portfolio of Aryan Bains — a MERN developer proficient in web and mobile apps, specializing in data structures, algorithms, and seamless user experiences."
@@ -89,7 +89,7 @@ export const Home = () => {
         sectionRef={projectOne}
         visible={visibleSections.includes(projectOne.current)}
         index={1}
-        title="AarambhKar- Task Hunt"
+        title="LearnFast - Master Anything"
         description="Freelancing Platform based on Bounty System"
         buttonText="View more"
         buttonLink="/projects/taskhunt"

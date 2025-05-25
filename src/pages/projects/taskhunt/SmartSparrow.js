@@ -70,7 +70,7 @@ import styles from './SmartSparrow.module.css';
 const Earth = dynamic(() => import('./Earth').then(mod => mod.Earth));
 const EarthSection = dynamic(() => import('./Earth').then(mod => mod.EarthSection));
 
-const title = 'AarambhKar - Task Hunt';
+const title = 'LearnFast - Master Anything';
 const description =
   'Unleashing Talent, Elevating Projects: Where Creativity Meets Opportunity';
 const roles = [
@@ -138,7 +138,7 @@ export const SmartSparrow = () => {
         </ProjectSection>
         <ProjectSection light={isDark}>
           <ProjectSectionContent> */}
-            {/* <Image
+          {/* <Image
               key={themeId}
               srcSet={
                 isDark
@@ -153,7 +153,7 @@ export const SmartSparrow = () => {
               alt={`A set of ${themeId} themed components for the aero design system`}
               sizes="100vw"
             /> */}
-            {/* <ProjectTextRow>
+          {/* <ProjectTextRow>
               <SegmentedControl
                 currentIndex={themes.indexOf(themeId)}
                 onChange={handleThemeChange}

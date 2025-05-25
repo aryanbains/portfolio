@@ -2,7 +2,7 @@ import Head from 'next/head';
 
 const siteUrl = process.env.NEXT_PUBLIC_WEBSITE_URL;
 const name = 'Aryan Bains';
-const twitterHandle = '@aryanbains2';
+const xHandle = '@aryanbains2';
 const defaultOgImage = `${siteUrl}/social-image.png`;
 
 export const Meta = ({ title, description, prefix = name, ogImage = defaultOgImage }) => {
@@ -29,8 +29,8 @@ export const Meta = ({ title, description, prefix = name, ogImage = defaultOgIma
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:description" content={description} />
       <meta name="twitter:title" content={titleText} />
-      <meta name="twitter:site" content={twitterHandle} />
-      <meta name="twitter:creator" content={twitterHandle} />
+      <meta name="twitter:site" content={xHandle} />
+      <meta name="twitter:creator" content={xHandle} />
       <meta name="twitter:image" content={ogImage} />
     </Head>
   );

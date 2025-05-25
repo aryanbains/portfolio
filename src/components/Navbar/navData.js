@@ -23,9 +23,9 @@ export const navLinks = [
 
 export const socialLinks = [
   {
-    label: 'Twitter',
-    url: 'https://twitter.com/aryanbains2',
-    icon: 'twitter',
+    label: 'X',
+    url: 'https://x.com/aryanbains2',
+    icon: 'x',
   },
   {
     label: 'Github',

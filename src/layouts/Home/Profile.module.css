@@ -111,6 +111,45 @@
   }
 }
 
+.contactSection {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */ /* Removed for left alignment */
+  /* justify-content: center; */ /* Removed for left alignment */
+  /* text-align: center; */ /* Removed for left alignment */
+  /* padding: var(--space-xxl) 0; */ /* Removed, will adjust margins below */
+  opacity: 0;
+  transition-property: opacity;
+  transition-timing-function: var(--bezier);
+  transition-duration: var(--duration-l);
+  transition-delay: var(--delay-m);
+  width: 100%;
+  margin-top: var(--spaceL); /* Added top margin */
+  margin-bottom: var(--spaceL); /* Added bottom margin */
+}
+
+.contactSection[data-visible='true'] {
+  opacity: 1;
+}
+
+.contactTitle {
+  margin-bottom: var(--spaceM); /* Adjusted bottom margin */
+  font-size: var(--fontSize-h3); /* Adjusted font size if needed, or keep as is */
+}
+
+.contactButtons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--spaceS); /* Adjusted gap */
+  /* justify-content: center; */ /* Removed for left alignment */
+  margin-bottom: 0; /* Removed bottom margin as section has it now */
+}
+
+.contactButton {
+  margin-right: var(--space-s);
+  margin-bottom: var(--space-s);
+}
+
 .image {
   position: relative;
   width: 100%;
