@@ -90,7 +90,7 @@ export const Home = () => {
         visible={visibleSections.includes(projectOne.current)}
         index={1}
         title="LearnFast - Master Anything"
-        description="Freelancing Platform based on Bounty System"
+        description="Smart learning paths tailored by AI"
         buttonText="View more"
         buttonLink="/projects/taskhunt"
         model={{

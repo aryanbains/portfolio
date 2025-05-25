@@ -72,7 +72,7 @@ const EarthSection = dynamic(() => import('./Earth').then(mod => mod.EarthSectio
 
 const title = 'LearnFast - Master Anything';
 const description =
-  'Unleashing Talent, Elevating Projects: Where Creativity Meets Opportunity';
+  'Smart learning paths tailored by AI';
 const roles = [
   'Skill development pathways',
   'Profile enhancement',
