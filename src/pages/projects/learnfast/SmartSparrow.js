@@ -104,7 +104,7 @@ export const SmartSparrow = () => {
         <ProjectHeader
           title={title}
           description={description}
-          url="https://taskhunt-frontend.vercel.app"
+          url="https://learn-fast-kappa.vercel.app/"
           roles={roles}
         />
         <ProjectSection padding="top">
@@ -125,6 +125,52 @@ export const SmartSparrow = () => {
               sizes={`(max-width: ${media.mobile}px) 100vw, (max-width: ${media.tablet}px) 800px, 1000px`}
               alt="A screenshot of the current ui of the app"
             />
+            <ProjectTextRow>
+              <ProjectSectionHeading>Overview:</ProjectSectionHeading>
+              <ProjectSectionText>
+                LearnFast is an AI-driven learning platform designed to make self-education structured, efficient, and personalized. Whether you're a student, professional, or lifelong learner, LearnFast helps you build custom learning schedules based on your goals, availability, and preferred learning style.
+              </ProjectSectionText>
+            </ProjectTextRow>
+            <ProjectTextRow>
+              <ProjectSectionHeading>Key Features:</ProjectSectionHeading>
+              <ProjectSectionText>
+                <strong>🔹 AI-Powered Learning Paths:</strong> Automatically generate tailored study plans based on user-selected topics and time commitment.
+                <br />
+                <strong>🔹 Daily Task Breakdown:</strong> Structured, day-by-day schedules to maintain focus and consistency.
+                <br />
+                <strong>🔹 Curated Content:</strong> Handpicked high-quality videos, articles, and documentation for effective learning.
+                <br />
+                <strong>🔹 Flexible Scheduling:</strong> Adjust learning schedules easily based on real-life availability.
+                <br />
+                <strong>🔹 Progress Tracking & Achievements:</strong> Visual dashboards and gamified milestones to stay motivated.
+              </ProjectSectionText>
+            </ProjectTextRow>
+            <ProjectTextRow>
+              <ProjectSectionHeading>How It Works:</ProjectSectionHeading>
+              <ProjectSectionText>
+                Users select a topic (e.g., programming, business, design), specify how much time they can dedicate daily or the number of days they want to learn, and LearnFast generates a personalized, step-by-step schedule using curated YouTube playlists and other resources.
+              </ProjectSectionText>
+            </ProjectTextRow>
+            <ProjectTextRow>
+              <ProjectSectionHeading>Tech Stack:</ProjectSectionHeading>
+              <ProjectSectionText>
+                <strong>Frontend:</strong> React (Next.js)
+                <br />
+                <strong>Backend:</strong> Flask (Python)
+                <br />
+                <strong>Core Logic:</strong> AI-based recommendation system & scheduling algorithm
+                <br />
+                <strong>Database:</strong> MongoDB Atlas
+                <br />
+                <strong>Integrations:</strong> YouTube Data API, OpenAI (optional for prompt generation)
+              </ProjectSectionText>
+            </ProjectTextRow>
+            <ProjectTextRow>
+              <ProjectSectionHeading>Impact:</ProjectSectionHeading>
+              <ProjectSectionText>
+                LearnFast bridges the gap between unstructured online content and guided learning by offering personalized roadmaps to success. It empowers users to take control of their learning journey with efficiency and confidence.
+              </ProjectSectionText>
+            </ProjectTextRow>
           </ProjectSectionContent>
         </ProjectSection>
         <ProjectSection>

@@ -92,7 +92,7 @@ export const Home = () => {
         title="LearnFast - Master Anything"
         description="Smart learning paths tailored by AI"
         buttonText="View more"
-        buttonLink="/projects/taskhunt"
+        buttonLink="/projects/learnfast"
         model={{
           type: 'laptop',
           alt: 'Screenshot of the current UI',
@@ -110,12 +110,12 @@ export const Home = () => {
         sectionRef={projectTwo}
         visible={visibleSections.includes(projectTwo.current)}
         index={2}
-        title="Dr. Hapyer"
-        description="An ecosystem for Health Records"
+        title="Image5 AI"
+        description="AI-Powered Thumbnail Generation"
         buttonText="View website"
-        buttonLink="https://github.com/aryanbains/IC-HACK-SUPERNOVA-PHASE--2"
+        buttonLink="https://www.image5.app"
         model={{
-          type: 'phone',
+          type: 'laptop',
           alt: 'App login screen',
           textures: [
             {
@@ -134,10 +134,10 @@ export const Home = () => {
         sectionRef={projectThree}
         visible={visibleSections.includes(projectThree.current)}
         index={3}
-        title="Vectorify"
-        description="A vector drawing app made with C# and WinUI3"
+        title="Decrypt Storage"
+        description="IPFS Blockchain Storage"
         buttonText="View website"
-        buttonLink="https://github.com/tresillo2017/vectorify"
+        buttonLink="https://blockchain-storage-app.vercel.app/"
         model={{
           type: 'laptop',
           alt: 'A screenshot of the current UI',
